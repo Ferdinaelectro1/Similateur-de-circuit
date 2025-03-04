@@ -1,0 +1,36 @@
+- Pour créer les liaisons , faire des points au niveau de chaque broche et detecter si le clique 
+appartient à ce point alors on trace la liaisons electriques.
+
+////////////////copie de fonction ////////////////////////////
+
+QPointF JumperXY::snapToAxis(const QPointF &point)
+{
+    qreal dx = std::abs(m_origine.x() - point.x());
+    qreal dy = std::abs(m_origine.y() - point.y());
+    if(dx > dy)
+    {
+      direction_change_X = 1;
+      if (direction_change_Y)
+      {
+        direction_change_X = 0;
+        return QPointF(m_origine.x(),point.y());
+      }
+      else
+      {
+        return QPointF(point.x(),m_origine.y());
+      }
+    }
+    else
+    {
+      direction_change_Y = 1;
+      if (direction_change_X)
+      {
+        direction_change_Y = 0;
+        return QPointF(point.x(),m_origine.y());
+      }
+      else
+      {
+        return QPointF(m_origine.x(),point.y());
+      }
+    }
+}

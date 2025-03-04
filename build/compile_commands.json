@@ -1,0 +1,164 @@
+[
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/bilogis_autogen/mocs_compilation.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/mocs_compilation.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/bilogis.dir/bilogis_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/mainFrontEnd.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/mainFrontEnd.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/mainFrontEnd.cpp",
+  "output": "CMakeFiles/bilogis.dir/mainFrontEnd.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/NandFront.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/NandFront.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/NandFront.cpp",
+  "output": "CMakeFiles/bilogis.dir/NandFront.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/NotFront.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/NotFront.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/NotFront.cpp",
+  "output": "CMakeFiles/bilogis.dir/NotFront.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/AndFront.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/AndFront.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/AndFront.cpp",
+  "output": "CMakeFiles/bilogis.dir/AndFront.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/OrFront.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/OrFront.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/OrFront.cpp",
+  "output": "CMakeFiles/bilogis.dir/OrFront.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/PortesFront.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/PortesFront.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/PortesFront.cpp",
+  "output": "CMakeFiles/bilogis.dir/PortesFront.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/CircuitFront.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/CircuitFront.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/CircuitFront.cpp",
+  "output": "CMakeFiles/bilogis.dir/CircuitFront.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/MainWindow.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/MainWindow.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/MainWindow.cpp",
+  "output": "CMakeFiles/bilogis.dir/MainWindow.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/apk_window.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/apk_window.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/apk_window.cpp",
+  "output": "CMakeFiles/bilogis.dir/apk_window.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/win_new_project.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/win_new_project.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/win_new_project.cpp",
+  "output": "CMakeFiles/bilogis.dir/win_new_project.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/Circuit.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/Circuit.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/Circuit.cpp",
+  "output": "CMakeFiles/bilogis.dir/Circuit.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/S_AND.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/S_AND.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/S_AND.cpp",
+  "output": "CMakeFiles/bilogis.dir/S_AND.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/S_OR.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/S_OR.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/S_OR.cpp",
+  "output": "CMakeFiles/bilogis.dir/S_OR.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/S_NOT.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/S_NOT.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/S_NOT.cpp",
+  "output": "CMakeFiles/bilogis.dir/S_NOT.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/Portes.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/Portes.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/Portes.cpp",
+  "output": "CMakeFiles/bilogis.dir/Portes.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/XAND.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/XAND.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/XAND.cpp",
+  "output": "CMakeFiles/bilogis.dir/XAND.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/XOR.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/XOR.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/XOR.cpp",
+  "output": "CMakeFiles/bilogis.dir/XOR.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/XNAND.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/XNAND.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/XNAND.cpp",
+  "output": "CMakeFiles/bilogis.dir/XNAND.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/XNOR.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/XNOR.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/XNOR.cpp",
+  "output": "CMakeFiles/bilogis.dir/XNOR.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/NAND.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/NAND.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/NAND.cpp",
+  "output": "CMakeFiles/bilogis.dir/NAND.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/NOR.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/NOR.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/NOR.cpp",
+  "output": "CMakeFiles/bilogis.dir/NOR.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/curs_pos.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/curs_pos.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/curs_pos.cpp",
+  "output": "CMakeFiles/bilogis.dir/curs_pos.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/try_connexion.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/try_connexion.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/try_connexion.cpp",
+  "output": "CMakeFiles/bilogis.dir/try_connexion.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/JumperXY.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/JumperXY.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/JumperXY.cpp",
+  "output": "CMakeFiles/bilogis.dir/JumperXY.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/Wire.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/Wire.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/Wire.cpp",
+  "output": "CMakeFiles/bilogis.dir/Wire.cpp.o"
+},
+{
+  "directory": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build/bilogis_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -g -fPIC -o CMakeFiles/bilogis.dir/Fil.cpp.o -c /home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/Fil.cpp",
+  "file": "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/Portes_logiques_classe/Fil.cpp",
+  "output": "CMakeFiles/bilogis.dir/Fil.cpp.o"
+}
+]

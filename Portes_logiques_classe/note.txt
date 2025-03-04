@@ -1,0 +1,281 @@
+ok salut
+-*- pour passer des arg en parametres d'une fonction dans un connect:
+    QObject::connect(button, &QPushButton::clicked, [&]() {
+        int valeur = 42;
+        QString texte = "Bonjour !";
+        maFonction(valeur, texte);  // Appel de la fonction avec des paramètres
+    });
+
+chat gpt : 
+#include <QApplication>
+#include <QMainWindow>
+#include <QMenuBar>
+#include <QAction>
+#include <QStyle>
+#include <QIcon>
+
+class MainWindow : public QMainWindow {
+    Q_OBJECT
+
+public:
+    MainWindow() {
+        // Créer une barre de menu
+        QMenu *fileMenu = menuBar()->addMenu(tr("&File"));
+
+        // Ajouter une action avec une icône par défaut (ouvrir un fichier)
+        QAction *openAction = new QAction(style()->standardIcon(QStyle::SP_DialogOpenButton), tr("&Open"), this);
+        openAction->setShortcut(QKeySequence::Open);
+        fileMenu->addAction(openAction);
+
+        // Ajouter une action avec une icône par défaut (sauvegarder un fichier)
+        QAction *saveAction = new QAction(style()->standardIcon(QStyle::SP_DialogSaveButton), tr("&Save"), this);
+        saveAction->setShortcut(QKeySequence::Save);
+        fileMenu->addAction(saveAction);
+
+        // Ajouter une action avec une icône par défaut (quitter)
+        QAction *exitAction = new QAction(style()->standardIcon(QStyle::SP_TitleBarCloseButton), tr("&Exit"), this);
+        exitAction->setShortcut(QKeySequence::Quit);
+        connect(exitAction, &QAction::triggered, this, &QMainWindow::close);
+        fileMenu->addAction(exitAction);
+    }
+};
+
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
+    MainWindow window;
+    window.show();
+    return app.exec();
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+
+
+Oui, il est tout à fait possible de créer et lire un fichier avec votre propre extension en C++. Une extension de fichier est simplement une convention pour distinguer les types de fichiers ; elle n'a pas de signification intrinsèque pour le système d'exploitation. Vous pouvez lire et écrire dans un fichier de votre extension personnalisée en manipulant les données avec les flux d'entrée/sortie standards de C++ (std::ofstream et std::ifstream).
+
+Voici un exemple :
+Exemple : Créer et lire un fichier personnalisé
+
+#include <iostream>
+#include <fstream>
+#include <string>
+
+int main() {
+    // Nom du fichier avec une extension personnalisée
+    std::string filename = "mon_fichier.mf";
+
+    // Écriture dans le fichier
+    std::ofstream outFile(filename, std::ios::out);
+    if (!outFile) {
+        std::cerr << "Erreur : impossible de créer le fichier " << filename << std::endl;
+        return 1;
+    }
+
+    // Écrire des données dans le fichier
+    outFile << "Ceci est un fichier personnalisé.\n";
+    outFile << "L'extension est .mf, et nous le manipulons en C++ !\n";
+    outFile.close();
+    std::cout << "Fichier " << filename << " créé avec succès." << std::endl;
+
+    // Lecture du fichier
+    std::ifstream inFile(filename, std::ios::in);
+    if (!inFile) {
+        std::cerr << "Erreur : impossible d'ouvrir le fichier " << filename << std::endl;
+        return 1;
+    }
+
+    // Lire et afficher le contenu du fichier
+    std::cout << "Contenu du fichier " << filename << " :" << std::endl;
+    std::string line;
+    while (std::getline(inFile, line)) {
+        std::cout << line << std::endl;
+    }
+    inFile.close();
+
+    return 0;
+}
+
+Explications
+
+    Créer un fichier personnalisé :
+        std::ofstream est utilisé pour créer un fichier avec une extension personnalisée (dans ce cas, .mf).
+        Vous pouvez écrire tout type de données dans ce fichier (texte, données binaires, etc.).
+
+    Lire un fichier personnalisé :
+        std::ifstream permet d'ouvrir et de lire le fichier.
+        La méthode std::getline est utilisée pour lire ligne par ligne, mais vous pouvez également lire des blocs de données ou utiliser des flux binaires.
+
+    Extension personnalisée :
+        Le fichier est enregistré avec une extension .mf dans cet exemple. Cette extension est simplement une convention ; vous pourriez choisir n'importe quelle extension (.xyz, .custom, etc.).
+
+    Fichiers binaires (optionnel) : Si vous souhaitez stocker des données binaires au lieu de texte, utilisez les options std::ios::binary lors de l'ouverture du fichier :
+
+        Écriture binaire :
+
+std::ofstream outFile("fichier_binaire.mf", std::ios::out | std::ios::binary);
+int data = 12345;
+outFile.write(reinterpret_cast<char*>(&data), sizeof(data));
+outFile.close();
+
+Lecture binaire :
+
+        std::ifstream inFile("fichier_binaire.mf", std::ios::in | std::ios::binary);
+        int data;
+        inFile.read(reinterpret_cast<char*>(&data), sizeof(data));
+        std::cout << "Données lues : " << data << std::endl;
+        inFile.close();
+
+Applications possibles
+
+    Créer un fichier de configuration personnalisé (exemple : .config).
+    Stocker des données spécifiques à votre application (par exemple, un fichier de sauvegarde de jeu avec .sav).
+    Développer votre propre format de fichier binaire pour des données complexes comme des images, des audio, etc.
+
+Avec ce type de gestion de fichiers, vous pouvez facilement manipuler des fichiers personnalisés dans vos projets.
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Pour positionner un widget, comme un bouton, dans un QFormLayout à un endroit spécifique, vous devez utiliser la méthode insertRow. Cette méthode permet d'insérer un widget à une ligne spécifique dans le formulaire.
+Exemple de code
+
+#include <QApplication>
+#include <QWidget>
+#include <QFormLayout>
+#include <QPushButton>
+#include <QLineEdit>
+
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
+
+    // Créer une fenêtre principale
+    QWidget window;
+    window.setWindowTitle("QFormLayout Exemple");
+
+    // Créer un QFormLayout
+    QFormLayout *formLayout = new QFormLayout;
+
+    // Ajouter quelques widgets
+    formLayout->addRow("Nom :", new QLineEdit);
+    formLayout->addRow("Prénom :", new QLineEdit);
+
+    // Ajouter un bouton à une position spécifique
+    QPushButton *monBouton = new QPushButton("Mon Bouton");
+    formLayout->insertRow(1, monBouton); // Insère le bouton à la 2ème ligne (index 1)
+
+    // Ajouter un autre widget après le bouton
+    formLayout->addRow("Adresse :", new QLineEdit);
+
+    // Appliquer le layout à la fenêtre
+    window.setLayout(formLayout);
+    window.show();
+
+    return app.exec();
+}
+
+Explications
+
+    insertRow :
+        Cette méthode permet d'insérer une ligne dans le QFormLayout à une position spécifique.
+        La position est donnée par un index (commence à 0).
+        Syntaxe :
+
+formLayout->insertRow(int row, QWidget *widget);
+
+Vous pouvez aussi insérer des paires libellé-widget :
+
+        formLayout->insertRow(int row, const QString &label, QWidget *widget);
+
+    Ordre des lignes :
+        Les lignes qui se trouvent après l'index spécifié sont décalées vers le bas pour faire de la place au nouveau widget.
+
+    Ajout sans déplacement :
+        Si vous utilisez addRow, le widget est toujours ajouté à la fin.
+
+    Flexibilité des widgets :
+        Vous pouvez insérer des widgets simples (comme un bouton) ou des couples libellé-widget.
+
+Résultat attendu
+
+Avec ce code, le bouton sera positionné à la deuxième ligne du formulaire (juste après "Nom :"). Les autres widgets seront ajustés en conséquence. Utiliser insertRow est une méthode pratique pour organiser dynamiquement vos widgets dans un QFormLayout.
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Avec Qt, vous pouvez utiliser la classe QDateTime pour récupérer l'heure et la date actuelles avec précision. Voici comment procéder :
+Exemple de base : Récupérer la date et l'heure actuelles
+
+#include <QCoreApplication>
+#include <QDateTime>
+#include <QDebug>
+
+int main(int argc, char *argv[]) {
+    QCoreApplication app(argc, argv);
+
+    // Obtenir l'heure et la date actuelles
+    QDateTime currentDateTime = QDateTime::currentDateTime();
+
+    // Récupérer les composants individuels
+    int year = currentDateTime.date().year();
+    int month = currentDateTime.date().month();
+    int day = currentDateTime.date().day();
+    int hour = currentDateTime.time().hour();
+    int minute = currentDateTime.time().minute();
+    int second = currentDateTime.time().second();
+
+    // Afficher les résultats
+    qDebug() << "Date actuelle:" << day << "/" << month << "/" << year;
+    qDebug() << "Heure actuelle:" << hour << ":" << minute << ":" << second;
+
+    return 0;
+}
+
+Explications
+
+    Récupération de la date et de l'heure :
+        QDateTime::currentDateTime() retourne un objet QDateTime contenant la date et l'heure actuelles.
+        currentDateTime.date() retourne un objet QDate contenant uniquement la date.
+        currentDateTime.time() retourne un objet QTime contenant uniquement l'heure.
+
+    Composants spécifiques :
+        Les méthodes year(), month(), day() permettent de récupérer l'année, le mois et le jour.
+        Les méthodes hour(), minute(), second() permettent de récupérer l'heure, les minutes et les secondes.
+
+Exemple avec formatage personnalisé
+
+Pour afficher la date et l'heure dans un format particulier, vous pouvez utiliser toString :
+
+qDebug() << "Date et heure formatées:"
+         << currentDateTime.toString("dd/MM/yyyy hh:mm:ss");
+
+    Formats courants :
+        dd : Jour (avec zéro initial).
+        MM : Mois (avec zéro initial).
+        yyyy : Année sur 4 chiffres.
+        hh : Heure (au format 24 heures).
+        mm : Minutes.
+        ss : Secondes.
+
+Exemple avancé : Fuseaux horaires
+
+Si vous souhaitez obtenir l'heure dans un fuseau horaire spécifique, utilisez QTimeZone :
+
+#include <QTimeZone>
+
+QDateTime utcTime = QDateTime::currentDateTimeUtc(); // Temps UTC
+QTimeZone timeZone("Europe/Paris");
+QDateTime parisTime = utcTime.toTimeZone(timeZone);
+
+qDebug() << "Heure à Paris:" << parisTime.toString("dd/MM/yyyy hh:mm:ss");
+
+Résultat attendu
+
+Si l'heure actuelle est le 31 octobre 2024 à 14h25m30s, le programme affichera :
+
+Date actuelle: 31 / 10 / 2024
+Heure actuelle: 14 : 25 : 30
+Date et heure formatées: "31/10/2024 14:25:30"
+Heure à Paris: "31/10/2024 15:25:30"
+
+Qt simplifie grandement la gestion des dates et heures, tout en offrant une flexibilité avec les fuseaux horaires et le formatage.

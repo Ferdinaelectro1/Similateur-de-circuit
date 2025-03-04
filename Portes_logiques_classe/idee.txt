@@ -1,0 +1,49 @@
+**************************************
+* Date : 28 septembre 2024           *
+* Démarrage du projet                *
+* Bilogis                            *
+*Auteur : ATI Tchaa-Sousso Ferdinand *
+**************************************
+
+classe : Ciruit
+Méthodes :   addPortes(Portes p) //ajoute une porte au circuit
+             setsinputs(broche , valeur) // met la valeur "valeur" dans l'entrées de la broche
+             getoutputs(broche) -> retourne un bool de la valeur de sortie
+             addConnexion(int pin1, int pin2) //associe pin1 à pin2
+
+classe: Wire
+/**
+ * Represents a JumperXY object.
+ * 
+ * This class is responsible for handling the jumping behavior of an object in a 2D space.
+ * It provides methods to control the jump height, speed, and direction.
+ */
+
+/**
+ * Classe CircuitFront
+ *
+ * Cette classe représente le circuit frontal d'un système électronique.
+ * Elle est responsable de la gestion des signaux d'entrée et de sortie du système.
+ * Le circuit frontal est généralement connecté à d'autres composants du système,
+ * tels que des capteurs, des actionneurs ou d'autres circuits.
+ *
+ * Méthodes :
+ * - setInputSignal(signal: Signal): void
+ *     Cette méthode permet de définir le signal d'entrée du circuit frontal.
+ *
+ * - getOutputSignal(): Signal
+ *     Cette méthode retourne le signal de sortie actuel du circuit frontal.
+ *
+ * - processInput(): void
+ *     Cette méthode traite le signal d'entrée et met à jour le signal de sortie en conséquence.
+ *
+ * - reset(): void
+ *     Cette méthode réinitialise le circuit frontal en remettant le signal de sortie à sa valeur par défaut.
+ *
+ * Propriétés :
+ * - inputSignal: Signal
+ *     Cette propriété représente le signal d'entrée actuel du circuit frontal.
+ *
+ * - outputSignal: Signal
+ *     Cette propriété représente le signal de sortie actuel du circuit frontal.
+ */

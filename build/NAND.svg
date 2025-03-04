@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20mm"
+   height="20mm"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="NAND.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="8.9396909"
+     inkscape:cx="35.795421"
+     inkscape:cy="40.157988"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke-width:0.49586"
+       id="rect149"
+       width="0.0090786284"
+       height="0.10327236"
+       x="4.5599184"
+       y="5.4664507" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.49586"
+       id="rect153"
+       width="7.9866695"
+       height="11.92222"
+       x="3.9545579"
+       y="3.9533694" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="M 3.9553221,3.9919248 3.977346,15.920065 11.899163,15.881771 11.872276,3.9973855 Z"
+       id="path209" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 11.910858,4.0174613 c 0,0 2.5777,2.443707 2.653118,5.9488027 -2.646265,-0.089877 -2.646265,-0.089877 -2.646265,-0.089877 l -0.08038,0.015369"
+       id="path375" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 11.815749,4.0783576 c 0.323336,0.2824366 0.409517,1.1995044 0.409517,1.1995044"
+       id="path377" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 11.615948,4.1793522 c 0.72107,1.8795513 0.673312,2.7155957 0.72107,1.8795513 0.04776,-0.8360444 0.04776,-0.8360444 0.04776,-0.8360444"
+       id="path381" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 11.835194,15.860269 c 0,0 2.688387,-2.65595 2.718829,-5.8949607"
+       id="path385" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 11.698809,9.3802794 2.487198,-0.026217 0.310279,0.6522056 -2.591043,5.695311 z"
+       id="path387" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 14.034285,9.8964855 c 0.26105,0.4809395 0.26105,0.4809395 0.26105,0.4809395 l -2.096013,4.906358 z"
+       id="path389" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m 14.379067,9.2444381 -0.06085,1.6835019 -0.745519,1.63869 -0.190545,-0.958116 0.591825,-1.179117 z"
+       id="path391" />
+    <ellipse
+       style="fill:#000000;stroke-width:0.264583"
+       id="path445"
+       cx="15.670257"
+       cy="10.096515"
+       rx="1.2223358"
+       ry="1.9095426" />
+    <path
+       style="fill:#ffffff;stroke-width:0.264583"
+       d="m 14.039267,10.105031 c 0.314416,1.527929 -2.351868,5.253154 -2.351868,5.253154 L 4.6298933,15.374335 4.5320883,4.5584713 C 11.9136,4.5994247 11.9136,4.5994247 11.9136,4.5994247 c 0,0 2.657949,3.954101 2.293828,5.7256823 -0.364121,1.771581 -0.364121,1.771581 -0.364121,1.771581"
+       id="path553" />
+    <ellipse
+       style="fill:#ffffff;stroke-width:0.264583"
+       id="path557"
+       cx="15.683055"
+       cy="10.11508"
+       rx="0.64411533"
+       ry="0.95326424" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect663"
+       width="2.6590657"
+       height="1.009351"
+       x="16.781595"
+       y="9.4098415" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect665"
+       width="2.9193749"
+       height="0.93504196"
+       x="1.1328671"
+       y="5.7097025" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect665-3"
+       width="2.9193749"
+       height="0.93504196"
+       x="1.0748358"
+       y="13.244251" />
+  </g>
+</svg>

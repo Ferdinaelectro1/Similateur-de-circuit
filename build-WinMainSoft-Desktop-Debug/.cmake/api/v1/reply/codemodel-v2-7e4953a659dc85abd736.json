@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-568526c2c62626c33d91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WinMainSoft",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "WinMainSoft::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WinMainSoft-Debug-6dc6d6df2a092e9a431b.json",
+					"name" : "WinMainSoft",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WinMainSoft_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WinMainSoft_autogen-Debug-0ea0f1e60260313a911f.json",
+					"name" : "WinMainSoft_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/build-WinMainSoft-Desktop-Debug",
+		"source" : "/home/ferdinand/Bureau/Mon_Simulateur_Bilogis/WinMainSoft"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

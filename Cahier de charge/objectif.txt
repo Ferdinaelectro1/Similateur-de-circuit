@@ -1,0 +1,14 @@
+----------------Objectifs du projet bilogis-------------------------- 
+
+Créer un simulateur de circuit numérique capable de simuler le comportement d'un circuit numérique réel
+
+Avoir une interface graphique conviviale avec des widgets et interractions permettant de :
+  -- Lancer la simulation
+  -- Ajouter une porte données 
+  -- Pouvoir désinner des lignes de câblage pour le circuit
+  -- Voir les sigaux high (1) avec une couleur spécifique sur chaque ligne et une autre couleur pour les signaux low (0)
+  -- Pouvoir créer des bloques de composants logiques ( des bascules , des multiplexeurs , des UAL , ... etc)
+  -- Étendre le simulateur à d'autres composants tels que : les diodes , les afficheurs , les buzzers , des leds , ...etc
+  -- Pouvoir disposer des appareils de mesure dans le simulateur tels les oxilloscopes , les multimètre et autres .
+  -- Avoir une interface très simple à maîtriser
+  

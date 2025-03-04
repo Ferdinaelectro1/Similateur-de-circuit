@@ -1,0 +1,85 @@
+************************************************************** Back End ************************************************************** 
+
+               |-------> AND    (fille)
+               |-------> OR     (fille)
+               |-------> NOT    (fille)
+               |-------> NAND   (fille)
+class : Portes |-------> NOR    (fille)
+               |-------> XAND   (fille)
+               |-------> XOR    (fille)
+               |-------> XNAND  (fille)
+               |-------> XNOR   (fille)
+
+
+class :Circuit |------> Class principal du circuit électrique est charger de : 
+                                         ******** - Assurer les connexions entre les Portes logiques
+                                         ******** - Ajouter une porte logiques données au circuit
+                                         ******** - Envoyer un signal donné à l'entré d'une porte 
+                                         ******** - Lire un signal donné à la sortie d'une porte
+                                         ******** - Récuperer le nombre de composants actuellement dans le circuit
+
+
+
+
+
+************************************************************** Front End **************************************************************
+
+
+
+
+    - les fichiers MainWindow.h et .cpp servent à créer la fenetre schématic de l'application
+        |----> la class MainWindow est la class de base de la fenetre de schema.
+        {
+            *--* Cette class hérite de la class QMainWindow premettant de créer des fenetre d'application
+            *--* Dans cette class il y'a un objet QGraphicsScene qui premet de pouvoir ajouter les 
+            porte logique à la scene , car les portes logiques sont des objets qui hérite de la class QGraphicsItemGroup 
+            qui a besoin d'être mise dans une scene.
+            *--* Dans cette class aussi il y'a un objet QGraphicsView permettant d'afficher la scene . Ce objet est mis dans un 
+            layout qui est à son tours placer dans un centralWidget qui constitue la widget centrale de la fenetre.
+        } 
+
+
+    - les fichiers apk_window.h et .cpp servent à créer la fenetre principal de l'application (fenetre d'accueil)
+        |----> la class apk_window est la class de base de la fenetre principal de l'application
+        {
+            *--* Cette class hérite de la class QMainWindow premettant de créer des fenetre d'application            
+        }
+
+
+
+    - les fichiers win_new_project.h et .cpp servent à créer la premiere fenetre de dialogue qui s'affiche lorsqu'on veut créer 
+    un nouveau projet dans l'application.
+        |----> la class win_new_project est la class de base premettant de créer cette fenetre de dialogue
+               {
+                *--* C'est à dans les attributs de la class de la fenetre de dialogue que ce trouve un objet de la class MainWindow,
+                ceci premettant à ce que ce soit la fenetre de dialogue qui donne l'autorisation et la création de nouvelle 
+                fenetre schematique , lorsqu'on crée un nouveau projet
+               }
+
+
+    - les fichiers AndFront.cpp et .h contiennent la class premettant de dessiner la porte logique And et d'y associer 
+    des évènements tels que le clique de la souris pour déplacer la portes , le traçage des lignes pour les interconnexions ,et biens d'autres 
+    évènements.
+       |----> la class AndFront est la class premettant de déssiner la porte logique and , elle hérite la class QGraphicsItemGroup (qui premet 
+       de créer un groupe d'Item en block et d'y associer des événements à ce groupe d'Item ).
+       Dans cette class plusieurs méthodes de détection d'événements on été redéfinis .
+       Il s'agit de : 
+       ....(M1) mouseMoveEvent    : permettant de détecter le déplacement du curseur de la souris sur l'objet
+       ....(M2) mousePressEvent   : permettant de détecter le pressage (appui ou clic) de la souris sur l'objet 
+       ....(M3) mouseReleaseEvent : permettant de détecter un relachement (relachement du clic ) de la souris sur l'objet
+
+
+    - les fichiers OrFront.cpp/.h , NotFront.cpp/.h , et autre ..Front.cpp/.h premettent de faire la même chose que ce qui est dis concernant , 
+    les fichiers AndFront.h / .cpp .
+
+
+
+Frontend : 
+    -- Les fichiers PortesFront.h et PortesFront.cpp sert à créer le schema de toutes les portes en lui fournissant l'image (*.svg).
+    Cette class implemente une fonction suivante permettant de déplacer la porte elle même.
+    -- Les fichiers CircuitFront.h sert à créer une scene qui va contenir les composants et les interconnexions.
+    Cette class contient les méthodes de déplacement de chaque portes grâce au clic souris, et les méthodes de reconnaissance des broches 
+    de chaque porte servant à réaliser les connexions électrique. Cette class habrite les fonction de création de la fenetre de 
+    dessin du schema du circuit.
+
+
