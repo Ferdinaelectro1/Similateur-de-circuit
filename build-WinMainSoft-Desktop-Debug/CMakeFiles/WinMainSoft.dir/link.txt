@@ -1,1 +1,0 @@
-/usr/bin/g++ -DQT_QML_DEBUG -g CMakeFiles/WinMainSoft.dir/WinMainSoft_autogen/mocs_compilation.cpp.o CMakeFiles/WinMainSoft.dir/main.cpp.o CMakeFiles/WinMainSoft.dir/mainwinsoft.cpp.o -o WinMainSoft  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.10 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.10 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.10 

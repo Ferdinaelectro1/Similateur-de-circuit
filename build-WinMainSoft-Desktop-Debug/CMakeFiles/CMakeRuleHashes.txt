@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-ce8f61a23b30621481b40bac752c9e44 CMakeFiles/WinMainSoft_autogen
